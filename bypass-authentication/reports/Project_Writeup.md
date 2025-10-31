@@ -75,7 +75,11 @@ Evidence:
 #### 3) Logic Flaw in Password Reset Flow
 
 I analyzed the multi‑step reset flow at `/customers/reset`. Step 1 accepts a valid email.
+
+
 ![Entered valid email](../screenshots/reset-email.png)
+
+
 
 Step 2 asks for the username.
 ![Entered valid username](../screenshots/reset-username.png)
