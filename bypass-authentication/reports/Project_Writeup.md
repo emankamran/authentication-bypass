@@ -79,12 +79,14 @@ I analyzed the multi‑step reset flow at `/customers/reset`. Step 1 accepts a v
 
 ![Entered valid email](../screenshots/reset-email.png)
 
-
-
 Step 2 asks for the username.
+
+
 ![Entered valid username](../screenshots/reset-username.png)
 
 Reset email flow is then initiated:
+
+
 ![Reset email initiated](../screenshots/reset-email-sent.png)
 
 Internally, the app retrieves the account via the query string but later uses PHP `$_REQUEST`, which merges GET and POST (POST wins).
