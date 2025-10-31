@@ -41,6 +41,8 @@ ffuf -w /usr/share/wordlists/SecLists/Usernames/Names/names.txt \
 ```
 
 ![Ffuf setup](../screenshots/ffuf-setup.png)
+
+
 Outcome: built `valid_usernames.txt` for later use.
 
 Evidence:
