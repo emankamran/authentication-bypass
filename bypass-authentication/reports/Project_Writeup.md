@@ -66,6 +66,8 @@ Notes:
 - I watched for response size and status code anomalies to identify valid logins.
 
 Evidence:
+
+
 ![Brute‑force ffuf results](../screenshots/bruteforce-results.png)
 
 #### 3) Logic Flaw in Password Reset Flow
