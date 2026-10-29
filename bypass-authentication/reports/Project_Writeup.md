@@ -223,11 +223,3 @@ Potential impacts include unauthorized account access, data exposure, and privil
 This was performed in a controlled TryHackMe lab for learning purposes only. Do not attempt these techniques against systems you do not own or have explicit permission to test.
 
 ---
-
-### Repo Structure
-
-- `README.md` – this report
-- `screenshots/` – all evidence images referenced above
-- `reports/` – optional space for future PDFs/exports
-
-If you want this on GitHub, just commit and push the repo. The image links are relative and will render on GitHub.
